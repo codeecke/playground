@@ -1,0 +1,36 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.overlay h1,
+.overlay h2 {
+    font-weight: normal;
+}
+
+.overlay__window {
+    background-color: #fff;
+    padding: 50px;
+}
+
+.overlay__button-bar {
+    display: flex;
+    gap: 15px;
+    margin-top: 2rem;
+}
+
+.overlay .button, .overlay button {
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    padding: 15px;
+    text-decoration: none;
+}
